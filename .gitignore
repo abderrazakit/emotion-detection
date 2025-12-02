@@ -4,16 +4,32 @@ venv/
 __pycache__/
 *.pyc
 
-# Données (Trop lourd pour GitHub)
+# --- DONNÉES (CRITIQUE) ---
+# Ignore tout le dossier data (qu'il contienne csv ou images)
 data/
+
+# Sécurité supplémentaire : Ignore les images partout
+# (Au cas où tu en laisses trainer à la racine)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Archives compressées
 *.zip
-*.csv
+*.tar
+*.gz
+*.rar
 
-# Modèles (souvent lourds, on peut les ignorer ou utiliser Git LFS, pour l'instant on ignore les gros)
+# --- MODÈLES IA ---
+# Les modèles sont lourds (>100Mo), on ne les veut pas sur GitHub classique
 *.h5
+*.keras
 *.pt
+*.pth
+*.onnx
 
-# Fichiers de configuration IDE
+# --- IDE & CONFIG ---
 .vscode/
 .idea/
 .ipynb_checkpoints
