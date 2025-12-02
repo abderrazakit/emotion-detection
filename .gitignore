@@ -1,0 +1,19 @@
+# Environnement virtuel python
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Données (Trop lourd pour GitHub)
+data/
+*.zip
+*.csv
+
+# Modèles (souvent lourds, on peut les ignorer ou utiliser Git LFS, pour l'instant on ignore les gros)
+*.h5
+*.pt
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+.ipynb_checkpoints
