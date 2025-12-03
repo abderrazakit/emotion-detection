@@ -6,28 +6,16 @@ __pycache__/
 
 # --- DONNÉES (CRITIQUE) ---
 # Ignore tout le dossier data (qu'il contienne csv ou images)
-data/
 
 # Sécurité supplémentaire : Ignore les images partout
 # (Au cas où tu en laisses trainer à la racine)
-*.jpg
-*.jpeg
-*.png
-*.bmp
 
 # Archives compressées
-*.zip
-*.tar
-*.gz
-*.rar
+
 
 # --- MODÈLES IA ---
 # Les modèles sont lourds (>100Mo), on ne les veut pas sur GitHub classique
-*.h5
-*.keras
-*.pt
-*.pth
-*.onnx
+
 
 # --- IDE & CONFIG ---
 .vscode/
