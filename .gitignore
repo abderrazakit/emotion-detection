@@ -2,8 +2,14 @@
 venv/
 .env
 __pycache__/
+<<<<<<< HEAD
+=======
+*.pyc
 
-# Fichiers de configuration IDE
+# --- IDE & CONFIG ---
 .vscode/
 .idea/
 .ipynb_checkpoints
+
+#Environnement virtuel python
+venv311/
