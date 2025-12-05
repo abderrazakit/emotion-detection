@@ -4,19 +4,7 @@ venv/
 __pycache__/
 *.pyc
 
-# --- DONNÉES (CRITIQUE) ---
-# Ignore tout le dossier data (qu'il contienne csv ou images)
-
-# Sécurité supplémentaire : Ignore les images partout
-# (Au cas où tu en laisses trainer à la racine)
-
-# Archives compressées
-
-
-# --- MODÈLES IA ---
-# Les modèles sont lourds (>100Mo), on ne les veut pas sur GitHub classique
-
-
+venv311
 # --- IDE & CONFIG ---
 .vscode/
 .idea/
